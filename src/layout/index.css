@@ -1,0 +1,31 @@
+#LayoutHeader {
+  width: 100%;
+  height: 12%;
+  background-color: goldenrod;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#LayoutSection {
+  width: 100%;
+  height: 88%;
+  display: flex;
+
+  > aside {
+    width: 15%;
+    background-color: rgb(216, 189, 120);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 1rem;
+  }
+
+  > main {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 1rem;
+    overflow: auto;
+  }
+}

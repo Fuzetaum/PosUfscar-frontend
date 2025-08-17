@@ -1,0 +1,12 @@
+#ProductListRoot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+#ProductListFilterCard {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

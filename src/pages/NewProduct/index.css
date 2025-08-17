@@ -1,0 +1,27 @@
+#NewProductCard {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#NewProductForm {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 2rem;
+
+  > div {
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+}
+
+.CancelButton {
+  color: white;
+  background-color: rgb(173, 17, 17);
+  border-color: rgb(117, 6, 6);
+
+  &:hover {
+  background-color: rgb(131, 13, 13);
+  }
+}
